@@ -1,0 +1,9 @@
+@echo off
+
+md "%UserProfile%\OneDrive\Documents\EQ" 2>nul
+
+xcopy "C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest\eqclient.ini" "%UserProfile%\OneDrive\Documents\EQ\eqclient.ini\" /y
+xcopy "C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest\UI_Karvahl_firiona.ini" "%UserProfile%\OneDrive\Documents\EQ\UI_Karvahl_firiona.ini\" /y
+xcopy "C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest\Karvahl_firiona.ini" "%UserProfile%\OneDrive\Documents\EQ\Karvahl_firiona.ini\" /y
+
+exit /b
