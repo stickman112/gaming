@@ -1,1 +1,1 @@
-#Everquest scripts and mods
+# Everquest scripts and mods
